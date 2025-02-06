@@ -1,0 +1,60 @@
+.LoginButton{
+    background: #04e2fa;
+    font-size: 1.2rem;
+    color:rgb(19, 19, 19);
+    font-weight: 700;
+}
+.loginInpuut{
+    width: 40%;
+}
+.LoginButton:hover{
+    outline: 1px solid rgb(2, 255, 6);
+    border:none;
+    color: white;
+    background: rgb(16, 193, 3);
+    box-shadow: 1px 2px 1px rgb(139, 236, 139);
+}
+.LoginButton:active{
+    outline: 1px solid rgb(0, 0, 248);
+    border:none;
+    color: rgb(100, 81, 81);
+    background: rgb(16, 193, 3);
+    box-shadow: 1px 2px 1px rgb(5, 121, 5);
+}
+
+/* chatarea */
+.chatBord{
+  /* background-color: rgb(94, 105, 177); */
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+.chatbox{
+    max-width:100%;
+    height: 95%;
+    max-height:85%;
+}
+.chatArea{
+    background: linear-gradient(45deg, #534a48, #deae8b, #adad71);
+    height: 100%;
+    overflow-x: hidden;
+    word-break: break-all;
+}
+.sendchatInput{
+    width: 95%;
+    padding: 8px;
+    margin: 0;
+    margin: auto;
+    border:0.1px solid rgb(65, 64, 64);
+    border-radius: .5rem;
+    box-shadow: 1px 2px 2px grey;
+    font-size: 1.1rem;
+}
+.sendchatInput:focus{
+  outline: 1px solid black;
+}
+.heading{
+    text-shadow: 1px 1px 3px green;
+}

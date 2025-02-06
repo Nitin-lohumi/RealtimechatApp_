@@ -1,6 +1,10 @@
-
-export default function Home() {
+"use client"
+import React from 'react'
+import Login from './login/page'
+export default function Page() {
   return (
-   <> hjvhj</>
-  );
+    <>
+     <Login/>
+    </>
+  )
 }
