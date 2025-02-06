@@ -5,7 +5,7 @@
     font-weight: 700;
 }
 .loginInpuut{
-    width: 40%;
+    width: 50%;
 }
 .LoginButton:hover{
     outline: 1px solid rgb(2, 255, 6);
@@ -37,7 +37,7 @@
     max-height:85%;
 }
 .chatArea{
-    background: linear-gradient(45deg, #534a48, #deae8b, #adad71);
+    background: linear-gradient(45deg, #454444, #37575f, #375867);
     height: 100%;
     overflow-x: hidden;
     word-break: break-all;

@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "node server.js",
     "lint": "next lint"
   },
   "dependencies": {
@@ -16,6 +16,7 @@
     "@mui/material": "^6.4.3",
     "cors": "^2.8.5",
     "express": "^4.21.2",
+    "moment": "^2.30.1",
     "mongodb": "^6.13.0",
     "mongoose": "^8.9.7",
     "next": "14.2.23",
