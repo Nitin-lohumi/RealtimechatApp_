@@ -18,7 +18,7 @@ function Chatapp() {
 
   useEffect(() => {
     async function getMessage() {
-      const res = await fetch("/api/message");
+      const res = await fetch("https://serverapi-v3g5.onrender.com/api/message");
       const data = await res.json();
       setOldMessage(data.message);
     }
@@ -71,6 +71,7 @@ function Chatapp() {
     const handleBeforeUnload = (event) => {
       event.preventDefault();
       event.returnValue = "";
+      router.push("/login");
     };
     window.addEventListener("beforeunload", handleBeforeUnload);
 
