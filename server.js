@@ -48,6 +48,7 @@ io.on("connection", async (socket) => {
     io.emit("userCount", io.engine.clientsCount);
   });
 });
-server.listen(4000, () => {
-  console.log("Socket.IO server running on http://localhost:4000");
+const Port  = process.env.PORT||4000
+server.listen(Port, () => {
+  console.log(`Socket.IO server running on ${Port}`);
 });
