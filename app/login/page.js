@@ -59,7 +59,7 @@ function Login() {
       />
       <Button
         variant="contained"
-        className={`capitalize p-3 rounded-lg ${style.LoginButton}`}
+        className={`capitalize p-3 mt-2 rounded-lg ${style.LoginButton}`}
         onClick={handleChatClick}
       >
         Let's Start the Chat
