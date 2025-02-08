@@ -72,6 +72,7 @@ function Chatapp() {
       event.preventDefault();
       event.returnValue = "";
       router.push("/login");
+      localStorage.removeItem("username");
     };
     window.addEventListener("beforeunload", handleBeforeUnload);
 
