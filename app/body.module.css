@@ -6,6 +6,7 @@
 }
 .loginInpuut{
     width: 50%;
+    margin: 30px 0;
 }
 .LoginButton:hover{
     outline: 1px solid rgb(2, 255, 6);

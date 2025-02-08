@@ -23,11 +23,11 @@ function Login() {
         <h1 className="capitalize text-white font-semibold  text-center text-2xl mb-5 text-wrap">Welcome to 
           <span className="text-4xl font-bold text-blue-500 pl-2"> REAL TIME CHAT APPLICATION</span> Join the Conversation!
         </h1>
-          <h1 className="text-2xl text-center text-white font-semibold mb-5">Enter your username and join the chat instantly</h1>
+          <h1 className="text-2xl text-center text-white font-semibold mb-2">Enter your username and join the chat instantly</h1>
       </div>
       <TextField
         type="text"
-        className={`w-fit  rounded-lg outline-none border-none mb-5 ${style.loginInpuut}`}
+        className={`w-fit  rounded-lg outline-none border-none ${style.loginInpuut}`}
         value={name}
         color="black"
         variant="outlined"
@@ -59,7 +59,7 @@ function Login() {
       />
       <Button
         variant="contained"
-        className={`capitalize p-3 mt-2 rounded-lg ${style.LoginButton}`}
+        className={`capitalize p-3 mt-3 rounded-lg ${style.LoginButton}`}
         onClick={handleChatClick}
       >
         Let's Start the Chat

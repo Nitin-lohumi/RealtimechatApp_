@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { IoMdSend } from "react-icons/io";
 import style from "../body.module.css";
 // https://serverapi-v3g5.onrender.com/
-const socket = io(process.env.NEXT_PUBLIC_API_URL, { reconnection: true });
+const socket = io(process.env.NEXT_PUBLIC_API_URL||" https://serverapi-v3g5.onrender.com/", { reconnection: true });
 function Chatapp() {
   const router = useRouter();
   const [message, setMessage] = useState("");
