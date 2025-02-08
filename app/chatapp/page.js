@@ -5,7 +5,7 @@ import io from "socket.io-client";
 import { useRouter } from "next/navigation";
 import { IoMdSend } from "react-icons/io";
 import style from "../body.module.css";
-const socket = io("https://realtimechatapp-j81y.onrender.com", { reconnection: true });
+const socket = io("https://realtimechatapp-j81y.onrender.com/", { reconnection: true });
 function Chatapp() {
   const router = useRouter();
   const [message, setMessage] = useState("");
