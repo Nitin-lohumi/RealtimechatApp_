@@ -113,7 +113,7 @@ function Chatapp() {
       {name && (
         <div className={`${style.chatBord}`}>
           <h1
-            className={`text-start text-4xl pl-2  font-semibold capitalize text-wrap ${style.heading}`}
+            className={`text-start text-3xl pl-2 font-semibold capitalize text-wrap ${style.heading}`}
           >
             Welcome, {name} <span>Let' Chat</span>
           </h1>
