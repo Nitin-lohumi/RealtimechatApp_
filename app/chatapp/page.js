@@ -71,8 +71,6 @@ function Chatapp() {
     const handleBeforeUnload = (event) => {
       event.preventDefault();
       event.returnValue = "";
-      // router.push("/login");
-      // localStorage.removeItem("username");
     };
     window.addEventListener("beforeunload", handleBeforeUnload);
 
@@ -81,10 +79,6 @@ function Chatapp() {
       socket.off("userCount");
       socket.off("newUser");
       socket.off("userLeft");
-      if (typeof window !== "undefined") {
-        localStorage.removeItem("username");
-        router.push("/login");
-      }
       window.removeEventListener("beforeunload", handleBeforeUnload);
     };
   }, [name]);
